@@ -1,7 +1,7 @@
 /*Queries that provide answers to the questions from all projects.*/
 
 SELECT * From animals WHERE name LIKE '%mon%';
-SELECT * From animals WHERE date_of_birth BETWEEN 2016 AND 2019;
+SELECT * From animals WHERE date_of_birth BETWEEN DATE '2016-01-01' AND DATE '2019-12-31';
 SELECT * From animals WHERE neutered = 'YES' AND escape_attempts < 3;
 SELECT date_of_birth from animals WHERE name IN ('Agumon','Pikachu');
 SELECT name, date_of_birth FROM animals WHERE weight_kg > 10.5;
