@@ -1,13 +1,13 @@
 /* Populate database with sample data. */
 
-INSERT INTO animals (id, name, date_of_birth, escape_attempts, neutered, weight_kg)
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg)
 VALUES 
 ('Agumon', '2020-02-03', 0, 'YES', 10.23),
 ('Gabumon', '2018-11-15', 2, 'YES', 8),
 ('Pikachu', '2021-01-07', 1, 'NO', 15.04),
 ('Devimon', '2017-05-12', 5, 'YES', 11);
 
-INSERT INTO animals (id, name, date_of_birth, weight_kg, neutered, escape_attempts)
+INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts)
 VALUES 
 ('Charmander', '2020-02-08', -11, 'FALSE', 0),
 ('Plantmon', '2021-11-15', -5.7, 'TRUE', 2),

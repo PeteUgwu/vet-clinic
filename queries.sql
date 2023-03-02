@@ -21,19 +21,20 @@ UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 COMMIT;
 SELECT species FROM animals;
 
-BEGIN;
+BEGIN TRANSACTION;
 DELETE FROM animals;
 SELECT * FROM animals;
-ROLLBACK;
+ROLLBACK TRANSACTION;
 SELECT * FROM animals;
 
-BEGIN;
-DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+BEGIN TRANSACTION;
+DELETE FROM animals WHERE date_of_birth > DATE '2022-01-01';
 SAVEPOINT my_savepoint;
 UPDATE animals SET weight_kg = weight_kg * -1;
-ROLLBACK TO my_savepoint;
+ROLLBACK TO SAVEPOINT my_savepoint;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
-COMMIT;
+COMMIT TRANSACTION;
+SELECT * FROM animals;
 
 SELECT COUNT(*) FROM animals;
 SELECT COUNT(*) FROM animals WHERE escape_attempts = 0;
