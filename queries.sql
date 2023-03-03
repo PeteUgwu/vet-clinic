@@ -72,7 +72,7 @@ INNER JOIN species ON animals.species_id = species.id
 INNER JOIN owners ON animals.owner_id = owners.id
 WHERE species.name = 'Digimon' AND owners.full_name = 'Jennifer Orwell';
 
-SELECT animals.name FROM animals
+SELECT * animals.name FROM animals
 INNER JOIN owners ON animals.owner_id = owners.id
 WHERE escape_attempts = 0 AND owners.full_name = 'Dean Winchester';
 
