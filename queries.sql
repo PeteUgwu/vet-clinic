@@ -101,7 +101,7 @@ SELECT animals.name, vet.name, visits.visit_date FROM animals
 JOIN visits on visits.animal_id = animals.id
 JOIN vet on vet.id = visits.vet_id
 WHERE vet.name = 'Stephanie Mendez' AND visits.visit_date
-BETWEEN '2020-04-01' AND '2020-08-30'
+BETWEEN '2020-04-01' AND '2020-08-30';
 
 SELECT animals.name, count(*) FROM animals
 JOIN visits on visits.animal_id = animals.id
