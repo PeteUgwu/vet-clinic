@@ -195,11 +195,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Database Schema Diagram
-
-You can view the database diagram here
-
-![Alt text](database%20diagram.png)
 
 <!-- AUTHORS -->
 
@@ -212,6 +207,13 @@ You can view the database diagram here
 - Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
 - LinkedIn: [@peteugwu](https://www.linkedin.com/in/peteugwu/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Future Features <a name="future-features"></a>
+
+
+- **[Generate diagram for the database schema]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
