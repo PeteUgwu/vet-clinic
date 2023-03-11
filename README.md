@@ -173,7 +173,6 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
 <!--
 Example command:
 
@@ -195,6 +194,12 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Database Schema Diagram
+
+You can view the database diagram here
+
+![Alt text](database%20diagram.png)
 
 <!-- AUTHORS -->
 
