@@ -173,7 +173,6 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
 <!--
 Example command:
 
@@ -196,6 +195,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -207,6 +207,13 @@ Example:
 - Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
 - LinkedIn: [@peteugwu](https://www.linkedin.com/in/peteugwu/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Future Features <a name="future-features"></a>
+
+
+- **[Generate diagram for the database schema]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
