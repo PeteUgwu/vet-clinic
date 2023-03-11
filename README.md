@@ -195,6 +195,13 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Database schema diagram
+
+See database schema diagram below
+
+![Alt text](database%20diagram.png)
+
+
 
 <!-- AUTHORS -->
 
